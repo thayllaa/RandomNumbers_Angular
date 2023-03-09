@@ -1,0 +1,11 @@
+<h2> Random Numbers </h2>
+<table border="1">
+  <tr><th> Number </th><th> Even or Odd </th></tr>
+  <tr *ngFor="let n of getNumbers()">
+    <td> {{ n }} </td>
+    <td>
+      <span *ngIf="n%2==0">Even</span>
+      <span *ngIf="n%2!=0">Odd</span>
+    </td>
+  </tr>
+</table>
