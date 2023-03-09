@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-flow',
+  standalone: true,
   templateUrl: './flow.component.html',
   styleUrls: ['./flow.component.css']
 })
